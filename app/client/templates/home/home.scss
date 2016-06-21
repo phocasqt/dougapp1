@@ -1,5 +1,16 @@
-/*****************************************************************************/
-/* Home: Style */
-/*****************************************************************************/
+@import '../../stylesheets/imported';
+
+@import '../../stylesheets/variables';
+
+
+
 .home {
+ 	overflow: auto;
+	//height: 100%;
+	//min-height: 100%;
+	height: calc(100vh - (#{$navbar-height}));
+	overflow-y: scroll;
+
 }
+//.home::-webkit-scrollbar {
+	//display:none;

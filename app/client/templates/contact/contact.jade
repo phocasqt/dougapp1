@@ -1,0 +1,29 @@
+template(name='Contact')
+	.contact
+		#contact.container-fluid.bg-grey
+			h2.text-center
+				| CONTACT
+			.row
+				.col-sm-5
+					p
+						|Contact us and we'll get back to you within 24 hours
+					p
+						span.glyphicon.glyphicon-map-marker
+							| Chicago
+					p
+						span.glyphicon.glyphicon-phone
+							| 231-333-3342
+					p
+						span.glyphicon.glyphicon-envelope
+							| myemail@something.com
+				.col-sm-7.slideanim
+					.row
+						.col-sm-6.form-group
+							input.form-control(id='name', name='name', placeholder='Name', type='text', required)
+						.col-sm-6.form-group
+							input.from-control(id='email', name='name', placeholder='Email', type='email')
+					textarea.form-control(id='comments', name='comments' placeholder='Comment', roews='5')
+					.row
+						.col-sm-12.form-group
+							button.btn-default.pull-right(type='submit')
+								| Send

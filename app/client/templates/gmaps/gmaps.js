@@ -1,26 +1,23 @@
 /*****************************************************************************/
-/* Home: Event Handlers */
+/* Gmaps: Event Handlers */
 /*****************************************************************************/
-Template.Home.events({
+Template.Gmaps.events({
 });
 
 /*****************************************************************************/
-/* Home: Helpers */
+/* Gmaps: Helpers */
 /*****************************************************************************/
-Template.Home.helpers({
-
-	
+Template.Gmaps.helpers({
 });
 
 /*****************************************************************************/
-/* Home: Lifecycle Hooks */
+/* Gmaps: Lifecycle Hooks */
 /*****************************************************************************/
-Template.Home.onCreated(function () {
+Template.Gmaps.onCreated(function () {
 });
 
-Template.Home.onRendered(function () {
-
+Template.Gmaps.onRendered(function () {
 });
 
-Template.Home.onDestroyed(function () {
+Template.Gmaps.onDestroyed(function () {
 });

@@ -1,26 +1,23 @@
 /*****************************************************************************/
-/* Home: Event Handlers */
+/* Customers: Event Handlers */
 /*****************************************************************************/
-Template.Home.events({
+Template.Customers.events({
 });
 
 /*****************************************************************************/
-/* Home: Helpers */
+/* Customers: Helpers */
 /*****************************************************************************/
-Template.Home.helpers({
-
-	
+Template.Customers.helpers({
 });
 
 /*****************************************************************************/
-/* Home: Lifecycle Hooks */
+/* Customers: Lifecycle Hooks */
 /*****************************************************************************/
-Template.Home.onCreated(function () {
+Template.Customers.onCreated(function () {
 });
 
-Template.Home.onRendered(function () {
-
+Template.Customers.onRendered(function () {
 });
 
-Template.Home.onDestroyed(function () {
+Template.Customers.onDestroyed(function () {
 });

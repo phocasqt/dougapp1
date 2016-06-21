@@ -1,21 +1,28 @@
 template(name='Nav')
-    nav.navbar.navbar-default.navbar-fixed-top
-      .container
-        .navbar-header
-          button.navbar-toggle(type='button', data-toggle='collapse', data-target='#myNavbar')
-            span.icon-bar
-            span.icon-bar
-            span.icon-bar
-          a.navbar-brand(href='#myPage') Logo
-        #myNavbar.collapse.navbar-collapse
-          ul.nav.navbar-nav.navbar-right
-            li
-              a(href='#about') ABOUT
-            li
-              a(href='#services') SERVICES
-            li
-              a(href='#portfolio') PORTFOLIO
-            li
-              a(href='#pricing') PRICING
-            li
-              a(href='#contact') CONTACT
+	.nav
+		nav.navbar.navbar-default
+			.container
+				.navbar-header
+					button.navbar-toggle(type='button', data-toggle='collapse', data-target='#myNavbar')
+						span.icon-bar
+						span.icon-bar
+						span.icon-bar
+					a.navbar-brand(href="#myPage" h)
+						| Logo
+				#myNavbar.collapse.navbar-collapse
+					ul.nav.navbar-nav.navbar-right
+						li
+							a(class='{{helperName "about"}}' href='#about')
+								| About 
+						li
+							a(id = "services" class='{{helperName "services"}}' href='#services')
+								| Services
+						li
+							a(class='{{helperName "portfolio"}}' href='#portfolio')
+								| Portfolio
+						li
+							a(id="link" class='{{helperName "pricing"}}' href='#pricing')
+								| Pricing
+						li
+							a(class='{{helperName "contact"}}' href='#contact')
+								| Contact

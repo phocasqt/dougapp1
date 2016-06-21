@@ -1,26 +1,23 @@
 /*****************************************************************************/
-/* Home: Event Handlers */
+/* Jumbo: Event Handlers */
 /*****************************************************************************/
-Template.Home.events({
+Template.Jumbo.events({
 });
 
 /*****************************************************************************/
-/* Home: Helpers */
+/* Jumbo: Helpers */
 /*****************************************************************************/
-Template.Home.helpers({
-
-	
+Template.Jumbo.helpers({
 });
 
 /*****************************************************************************/
-/* Home: Lifecycle Hooks */
+/* Jumbo: Lifecycle Hooks */
 /*****************************************************************************/
-Template.Home.onCreated(function () {
+Template.Jumbo.onCreated(function () {
 });
 
-Template.Home.onRendered(function () {
-
+Template.Jumbo.onRendered(function () {
 });
 
-Template.Home.onDestroyed(function () {
+Template.Jumbo.onDestroyed(function () {
 });

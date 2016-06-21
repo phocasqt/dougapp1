@@ -10,3 +10,4 @@ Router.route('/', {
   controller: 'HomeController',
   where: 'client'
 });
+
