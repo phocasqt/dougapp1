@@ -2,9 +2,24 @@
 /* Nav: Event Handlers */
 /*****************************************************************************/
 Template.Nav.events({
+	'click .nav-item':function(e){
+		var target = $(e.target);
+		var currentTarget = $(e.currentTarget);
+		var currentNav = currentTarget.attr('nav-name');
+		var test = $('.' + currentNav);
 
+		//scrolling div
+		var container = $('.home');
+		//gets div class with nav selector
+		var scrollTo = test;
 
-	
+		//smooth scroll
+		container.animate({
+		    scrollTop: scrollTo.offset().top - 
+		    container.offset().top + 
+		    container.scrollTop()
+		});
+	}	
 });
 
 /*****************************************************************************/
@@ -52,3 +67,6 @@ Template.Nav.onRendered(function () {
 
 Template.Nav.onDestroyed(function () {
 });
+
+
+

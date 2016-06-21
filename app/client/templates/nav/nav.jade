@@ -12,17 +12,17 @@ template(name='Nav')
 				#myNavbar.collapse.navbar-collapse
 					ul.nav.navbar-nav.navbar-right
 						li
-							a(class='{{helperName "about"}}' href='#about')
+							a.nav-item(nav-name="about" class='{{helperName "about"}}' href='#')
 								| About 
 						li
-							a(id = "services" class='{{helperName "services"}}' href='#services')
+							a.nav-item(nav-name="services" id = "services" class='{{helperName "services"}}' href='#')
 								| Services
 						li
-							a(class='{{helperName "portfolio"}}' href='#portfolio')
+							a.nav-item(nav-name="portfolio" class='{{helperName "portfolio"}}' href='#')
 								| Portfolio
 						li
-							a(id="link" class='{{helperName "pricing"}}' href='#pricing')
+							a.nav-item(nav-name="pricing" id="link" class='{{helperName "pricing"}}' href='#')
 								| Pricing
 						li
-							a(class='{{helperName "contact"}}' href='#contact')
+							a.nav-item(nav-name="contact" class='{{helperName "contact"}}' href='#')
 								| Contact

@@ -2,6 +2,11 @@
 /* Home: Event Handlers */
 /*****************************************************************************/
 Template.Home.events({
+	 'scroll .home': function() {
+		var scrolls = $('.home').scrollTop();
+		Session.set('scrollDistance', scrolls);
+		console.log('active');
+	}
 });
 
 /*****************************************************************************/
